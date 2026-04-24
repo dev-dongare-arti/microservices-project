@@ -29,6 +29,7 @@ public class UserController {
     
 	@GetMapping
 	public String getUsers() {
+		System.out.println("Inside Api is called::");
 		return "User service is running!";
 	}
 	
